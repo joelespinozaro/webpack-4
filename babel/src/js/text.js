@@ -1,4 +1,4 @@
 function text() {
-  document.body.innerHTML = "webpack-dev-server 2";
+  document.body.innerHTML = "babel 2";
 }
 export default text;

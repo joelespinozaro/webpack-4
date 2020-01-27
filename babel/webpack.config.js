@@ -2,7 +2,7 @@ const path = require("path");
 const MiniCSSExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpack = require("webpack");
-
+const babel = require("@babel/core");
 module.exports = {
   entry: {
     home: path.resolve(__dirname, "./src/js/index.js")
