@@ -1,3 +1,8 @@
 import "../css/index.css";
+import text from "./text";
 
-document.body.innerHTML = "<h2>webpack-dev-server</h2>";
+text();
+
+if (module.hot) {
+  module.hot.accept("./text.js", () => text());
+}
